@@ -1,0 +1,12 @@
+{
+  "name": "mmm-gtagasprices",
+  "version": "1.0.0",
+  "description": "MagicMirror module to display GTA gas prices from CityNews",
+  "main": "MMM-GTAGasPrices.js",
+  "author": "Ricky Poon",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.7.0",
+    "node-html-parser": "^6.1.12"
+  }
+}
