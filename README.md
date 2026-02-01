@@ -32,7 +32,7 @@ cd ~/MagicMirror/modules
 2. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/MMM-GTAGasPrices.git
+git clone https://github.com/poonasor/MMM-GTAGasPrices.git
 ```
 
 3. Navigate to the module folder:
