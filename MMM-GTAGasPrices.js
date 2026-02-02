@@ -7,6 +7,7 @@ Module.register("MMM-GTAGasPrices", {
     updateTime: "00:15",
     showIcon: true,
     showChangeIndicator: true,
+    showForecast: true,
     maxWidth: null,
   },
 
@@ -80,7 +81,7 @@ Module.register("MMM-GTAGasPrices", {
     priceValue.innerHTML = this.gasData.price + "¢/L";
     priceContainer.appendChild(priceValue);
 
-    if (this.gasData.forecast) {
+    if (this.config.showForecast && this.gasData.forecast) {
       const forecast = document.createElement("div");
       forecast.className = "forecast small";
       forecast.innerHTML = this.gasData.forecast;

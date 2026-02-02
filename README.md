@@ -76,6 +76,7 @@ Add the module to your `config/config.js` file:
         updateTime: "00:15",               // Time to fetch updated prices daily (HH:MM format, 24-hour)
         showIcon: true,                    // Show gas pump icon
         showChangeIndicator: true,         // Show price change indicator (up/down/no change)
+        showForecast: true,                // Show/hide the forecast text block
         maxWidth: "400px"                 // Optional: constrain the module width (CSS value)
     }
 }
@@ -92,6 +93,7 @@ Add the module to your `config/config.js` file:
 | `updateTime`          | `string`  | `"00:15"` | Daily scheduled time to fetch new prices (24-hour format: "HH:MM") |
 | `showIcon`            | `boolean` | `true`    | Display the gas pump emoji icon                                    |
 | `showChangeIndicator` | `boolean` | `true`    | Show whether prices are going up, down, or staying the same        |
+| `showForecast`        | `boolean` | `true`    | Show the forecast text block                                       |
 | `maxWidth`            | `string`  | `null`    | Optional CSS max-width for the module wrapper (e.g. `"400px"`)     |
 
 ## How It Works
