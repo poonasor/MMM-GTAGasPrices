@@ -1,5 +1,4 @@
 const NodeHelper = require("node_helper");
-const fetch = require("node-fetch");
 const { parse } = require("node-html-parser");
 
 module.exports = NodeHelper.create({

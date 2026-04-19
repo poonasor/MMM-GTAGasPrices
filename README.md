@@ -18,6 +18,8 @@ A MagicMirror² module that displays current and forecasted gas prices for the G
 - **External API**: [Toronto CityNews GTA Gas Prices](https://toronto.citynews.ca/toronto-gta-gas-prices/)
 - **API Key Required**: No
 - **Free**: Yes
+- **Node.js**: 22.21.1+ (uses native `fetch`)
+- **npm package**: `node-html-parser`
 
 This module scrapes public gas price data from CityNews Toronto's GTA gas prices page.
 
@@ -146,7 +148,7 @@ The module includes default styling in `MMM-GTAGasPrices.css`. You can customize
 - Gas prices typically update around midnight (00:00) daily, so the default `updateTime` is set to 00:15 to catch the new data
 - The module will display "Loading gas prices..." while fetching initial data
 - If data cannot be fetched, it will show "No gas price data available." and retry after `retryDelay`
-- The module requires MagicMirror² version 2.1.0 or higher
+- The module requires MagicMirror² version 2.1.0 or higher (tested on v2.35.0)
 
 ## Troubleshooting
 
